@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    height: 100vh;
+    background: #a09cec;
+    margin: 0;
+    display: grid;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.container{
+    text-align: center;
+    padding: 2em 0;
+    height: 100hv;
+
+}
+
+h1{
+    font-size: 4em;
+    margin: 0;
+    color: #27054c;
+}
+
+h2{
+    color:#27054c;
+}
+
+h3{
+    color:#3e2558;
+}
+
+p{
+    font-size: 1em;
+    margin: 0;
+    color: #3e2558;
+}
+svg{
+    width: 100%;
+    position:relative;
+    top: -160px;
+    bottom: 10px;
+    z-index: -1;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+ }
+ 
+ nav a:hover {
+    font-weight: bold;
+ }
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right:100px;
+ }
+ 
+ 
+ 
+ .logo {
+    width :50px;
+    margin-left: 40px;
+    display:flex;
+    object-position: left;
+    margin-bottom: 10px;
+    margin-top: 4px;
+ }
+ 
+ nav {
+    background-color: #8b87d7;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: right;
+ }
+ 
+ nav ul {
+    margin-top: -50px;
+ }
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #27054c;
+ }
+
+ .cloud1{
+     animation-name: cloud-anim1;
+     animation-duration: 20s; 
+     animation-iteration-count: infinite;
+     animation-direction: alternate-reverse;
+ }
+
+ .cloud2{
+    animation-name: cloud-anim2;
+    animation-duration: 30s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cloud-anim1{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(100%);
+    }
+}
+
+@keyframes cloud-anim2{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+
+.paper{
+    width: 100%;
+    text-align: center;
+    margin-top: -25%;
+    margin-bottom: 5%;
+}
+
+
+ .flex-container-column {
+    display: flex;
+    flex-direction: column;
+
+    /* Properti lainnya */
+    width: 100%;
+    background-color: burlywood;
+    margin: left 0 right -30px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    /* properti lainnya */
+    padding:60px;
+    text-align: center;
+}
+
+.first {
+    flex-grow: 3;
+    background-color: #27054c;
+    color: #835db6;
+
+}
+.second {
+    flex-grow: 3;
+    background-color:#9e6fd2;
+    color: #3e2558;
+}
+
+.third {
+    flex-grow: 3;
+    background-color:#835db6;
+    color:#27054c;
+
+}
+.forth {
+    flex-grow: 3;
+    background-color: #3e2558;
+    Color: #9e6fd2;
+}
+
+
+.baju{
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.container2 {
+    display: flex;
+
+    /* Properti lainnya */
+    background-color: #a09cec;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 8%;
+}
+.kotak {
+    flex-grow: 1;
+
+    /* properti lainnya */
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #8b87d7;
+    margin: 15px;
+    text-align: center;
+    padding: 25px
+}
+
+ .para1{
+     color:#835db6;
+ }
+
+ .para2{
+    color:#3e2558;
+}
+
+.para3{
+    color:#27054c;
+}
+
+.para4{
+    color:#9e6fd2;
+}
+
+.featured-image {
+    border-radius: 10px;
+    margin-left: 40px;
+ }
+
+ @media screen and (max-width: 100%) {
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+ 
+ * {
+    box-sizing: border-box;
+ }
+
+ .card {
+    float:right;
+    text-align: left;
+    padding:30px;
+    background-color: #706cc1;
+    padding-left: 20px;
+    color: #27054c ;
+ }
+
+ .profDev{
+     margin-left: 75px;
+ }
+
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #27054c;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 50px;
+ }
+
+figcaption{
+     margin-left: 60px;
+ }
+
+.rose{
+     color:#835db6;
+ }
+
+ .lili{
+     color:white;
+ }
